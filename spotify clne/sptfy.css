@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+
+.right{
+    width : 75vw;
+    height: 50vh;
+}
+
+
+
+.home ul li{
+    width : 24px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.heading{
+    width : 100%;
+    display: flex;
+    gap: 10px;
+    padding-top: 14px;
+    padding: 23px 14px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.heading img{
+    width: 30px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: rgb(177, 172, 172);
+    gap: 10px 44px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+    margin: 34px 12px;
+  
+}
+
+.footer a{
+    color: gray;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    background-color: #121212;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+.artist{
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(21, 21, 21);
+
+}
+
+.cards{
+    
+    height: 220px;
+    width: 160px;
+    padding: 5px;
+}
+
+.albums,.charts{
+    margin-top: 20px;
+}
+
+.alb-cards{
+    display: flex;
+}
+
